@@ -5,7 +5,7 @@ var BrowserWindow = electron.BrowserWindow
 var mainWindow: Electron.BrowserWindow;
 
 function createWindow () {
-  mainWindow = new BrowserWindow({width: 1000, height: 800, frame: false})
+  mainWindow = new BrowserWindow({width: 1000, height: 600, frame: false})
   mainWindow.loadURL("file://" + __dirname + "/index.html");
 
   mainWindow.webContents.openDevTools();
