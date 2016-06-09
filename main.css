@@ -17,18 +17,22 @@ body,p {
 .close-button {
   width: 40px;
   height: 100%;
-  margin: auto;
-  position: relative;
+  float: right;
   right: 0px;
   font-family: arial;
-  top: 15px;
   transition: all 0.2s;
+}
+
+.close-button p {
+  float: left;
+  margin: 15px;
 }
 
 .close-button:hover{
   background-color: black;
   color: white;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .bottom-bar {
