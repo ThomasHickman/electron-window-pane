@@ -1,0 +1,4 @@
+ver 0.0.1
+___________________
+
+first version which is the start of the project, no bugs or changes have occoured 
