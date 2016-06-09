@@ -12,6 +12,7 @@ body,p {
   height:40px;
   width: 960px;
   background-color: grey;
+  -webkit-app-region: drag;
 }
 
 .close-button {
