@@ -10,7 +10,8 @@ body,p {
   float: left;
   top:0px;
   height:40px;
-  width: 960px;
+  width: calc(100% - 40px);
+  display: inline-block;
   background-color: grey;
   -webkit-app-region: drag;
 }
