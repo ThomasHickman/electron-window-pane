@@ -16,7 +16,7 @@ app.on("mouseMove", (event) => {
     console.log(event);
 })
 
-var onDevTools = true;
+var onDevTools = false;
 
 document.body.addEventListener("keydown", (event) => {
     if(event.keyCode == 123 /*DevTools*/){
