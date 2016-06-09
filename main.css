@@ -11,7 +11,7 @@ body,p {
   top:0px;
   height:50px;
   width:100%;
-  background-color: blue;
+  background-color: grey;
 }
 
 .close-button {
@@ -29,7 +29,7 @@ body,p {
 }
 
 .close-button:hover{
-  background-color: black;
+  background-color: #646464;
   color: white;
   transition: all 0.2s;
   cursor: pointer;
@@ -40,7 +40,7 @@ body,p {
   bottom: 0px;
   height: 20px;
   width: 100%;
-  background-color: red;
+  background-color: silver;
 }
 
 .ver {
