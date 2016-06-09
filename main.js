@@ -6,6 +6,7 @@ var mainWindow;
 function createWindow() {
     mainWindow = new BrowserWindow({ width: 1000, height: 600, frame: false });
     mainWindow.loadURL("file://" + __dirname + "/index.html");
+    mainWindow.webContents.openDevTools();
     mainWindow.on('closed', function () {
         mainWindow = null;
     });
